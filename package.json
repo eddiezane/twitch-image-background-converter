@@ -1,0 +1,21 @@
+{
+  "name": "image-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eddie Zaneski",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.14.0",
+    "imagemagick": "^0.1.3",
+    "kue": "^0.11.1",
+    "multer": "^1.1.0",
+    "node-uuid": "^1.4.7",
+    "request": "^2.72.0"
+  }
+}
