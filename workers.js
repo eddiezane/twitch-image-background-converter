@@ -16,6 +16,10 @@ queue.process('photo', (job, done) => {
 
       let imageMagickOptions = []
 
+      if (!options) {
+        done(err, outFilePath)
+      }
+
       if (options.color) {
         imageMagickOptions.push('-set', 'colorspace', options.color)
       }
